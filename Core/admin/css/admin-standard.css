@@ -1,0 +1,57 @@
+
+/* =========================================================
+   Sharnay Institute Admin Standard Theme
+   Common overrides to keep navbar/sidebar colors consistent.
+   ========================================================= */
+:root{
+    --si-primary:#1d4ed8;
+    --si-primary-2:#2563eb;
+    --si-sidebar:#0f172a;
+    --si-sidebar-2:#111827;
+    --si-card:#ffffff;
+    --si-bg:#f4f7fb;
+    --si-text:#0f172a;
+    --si-muted:#64748b;
+    --si-border:#e5e7eb;
+}
+html,body{background:var(--si-bg)!important;color:var(--si-text);font-family:Inter,"Segoe UI",Arial,sans-serif!important;}
+#main-wrapper,.main-wrapper{background:var(--si-bg)!important;min-height:100vh;}
+.nav-header{background:var(--si-sidebar)!important;border-right:1px solid rgba(255,255,255,.08)!important;box-shadow:none!important;}
+.nav-header .brand-logo{height:72px!important;display:flex!important;align-items:center!important;justify-content:center!important;padding:10px 14px!important;}
+.nav-header .brand-logo img{max-width:185px!important;max-height:58px!important;object-fit:contain!important;background:#fff;border-radius:14px;padding:6px;}
+.header{background:#fff!important;border-bottom:1px solid var(--si-border)!important;box-shadow:0 8px 26px rgba(15,23,42,.06)!important;}
+.header .dashboard_bar{color:var(--si-text)!important;font-weight:700!important;font-size:18px!important;}
+.dlabnav{background:linear-gradient(180deg,var(--si-sidebar),var(--si-sidebar-2))!important;box-shadow:8px 0 26px rgba(15,23,42,.10)!important;}
+.dlabnav .metismenu>li>a,
+.dlabnav .metismenu a{color:rgba(255,255,255,.78)!important;border-radius:12px!important;margin:3px 12px!important;transition:.2s ease!important;}
+.dlabnav .metismenu>li>a:hover,
+.dlabnav .metismenu>li.mm-active>a,
+.dlabnav .metismenu a.active,
+.dlabnav .metismenu ul a:hover{background:rgba(37,99,235,.23)!important;color:#fff!important;}
+.dlabnav .metismenu ul{background:rgba(255,255,255,.035)!important;margin:0 12px 8px!important;border-radius:12px!important;padding:6px 0!important;}
+.dlabnav .metismenu ul a{font-size:13px!important;padding:9px 16px 9px 45px!important;margin:0 6px!important;}
+.content-body{background:var(--si-bg)!important;min-height:calc(100vh - 72px)!important;}
+.container-fluid,.container-fluname{padding:28px!important;}
+.card{border:0!important;border-radius:18px!important;box-shadow:0 10px 30px rgba(15,23,42,.07)!important;background:#fff!important;overflow:hidden;}
+.card-header{background:#fff!important;border-bottom:1px solid var(--si-border)!important;padding:18px 22px!important;}
+.card-header h1,.card-header h2,.card-header h3,.card-header h4,.card-header h5{color:var(--si-text)!important;font-weight:800!important;margin-bottom:0!important;}
+.page-title{background:#fff!important;border:1px solid var(--si-border)!important;border-radius:16px!important;padding:18px 20px!important;box-shadow:0 8px 25px rgba(15,23,42,.05)!important;margin-bottom:24px!important;}
+.page-title h1,.page-title h2,.page-title h3,.page-title h4{color:var(--si-text)!important;font-weight:800!important;}
+.form-label,.text-primary{color:#334155!important;font-weight:700!important;}
+.form-control,.form-select,.bootstrap-select .btn{border:1px solid #dbe3ef!important;border-radius:12px!important;min-height:44px!important;background:#fff!important;color:#0f172a!important;}
+.form-control:focus,.form-select:focus{border-color:var(--si-primary)!important;box-shadow:0 0 0 .18rem rgba(37,99,235,.15)!important;}
+.btn{border-radius:12px!important;font-weight:700!important;}
+.btn-primary{background:linear-gradient(135deg,var(--si-primary),#4f46e5)!important;border:0!important;color:#fff!important;box-shadow:0 8px 18px rgba(37,99,235,.24)!important;}
+.btn-primary:hover{transform:translateY(-1px);box-shadow:0 12px 24px rgba(37,99,235,.30)!important;}
+.btn-secondary,.btn-light{border:1px solid var(--si-border)!important;background:#f8fafc!important;color:#334155!important;}
+.table{background:#fff!important;border-color:var(--si-border)!important;}
+.table thead th{background:#f8fafc!important;color:#334155!important;font-weight:800!important;border-bottom:1px solid var(--si-border)!important;white-space:nowrap;}
+.table tbody td{vertical-align:middle!important;color:#334155!important;}
+.table-hover tbody tr:hover{background:#f8fbff!important;}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{background:var(--si-primary)!important;color:#fff!important;border-color:var(--si-primary)!important;}
+.alert,.alert-message{border-radius:14px!important;}
+.logout-btn{background:#fee2e2!important;color:#b91c1c!important;border-radius:12px!important;font-weight:800!important;}
+.header-profile2 img{width:42px!important;height:42px!important;border-radius:50%!important;object-fit:cover!important;border:2px solid #e5e7eb!important;}
+.required{color:#ef4444!important;}
+@media(max-width:991px){.container-fluid,.container-fluname{padding:18px!important}.content-body{padding-top:76px!important}}

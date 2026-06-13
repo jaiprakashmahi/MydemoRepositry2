@@ -1,0 +1,135 @@
+2026-02-04 09:47:28 - Request received
+POST data: Array
+(
+    [district_id] => 90
+)
+
+District ID after intval: 90
+Query executed. Rows found: 1
+Options generated: 73 characters
+2026-02-04 09:54:16 - Request received
+POST data: Array
+(
+    [district_id] => 90
+)
+
+District ID after intval: 90
+Query executed. Rows found: 1
+Options generated: 73 characters
+2026-02-04 10:56:22 - Request received
+POST data: Array
+(
+    [district_id] => 90
+)
+
+District ID after intval: 90
+Query executed. Rows found: 1
+Options generated: 73 characters
+2026-02-04 11:00:44 - Request received
+POST data: Array
+(
+    [district_id] => 90
+)
+
+District ID after intval: 90
+Query executed. Rows found: 1
+Options generated: 73 characters
+2026-02-04 11:41:05 - Request received
+POST data: Array
+(
+    [district_id] => 90
+)
+
+District ID after intval: 90
+Query executed. Rows found: 1
+Options generated: 73 characters
+2026-02-04 11:57:04 - Request received
+POST data: Array
+(
+    [district_id] => 90
+)
+
+District ID after intval: 90
+Query executed. Rows found: 1
+Options generated: 73 characters
+2026-02-04 11:57:13 - Request received
+POST data: Array
+(
+    [district_id] => 90
+)
+
+District ID after intval: 90
+Query executed. Rows found: 1
+Options generated: 73 characters
+2026-02-04 12:26:41 - Request received
+POST data: Array
+(
+    [district_id] => 90
+)
+
+District ID after intval: 90
+Query executed. Rows found: 1
+Options generated: 73 characters
+2026-02-04 12:47:16 - Request received
+POST data: Array
+(
+    [district_id] => 90
+)
+
+District ID after intval: 90
+Query executed. Rows found: 1
+Options generated: 73 characters
+2026-02-04 12:47:16 - Request received
+POST data: Array
+(
+    [district_id] => 90
+)
+
+District ID after intval: 90
+Query executed. Rows found: 1
+Options generated: 73 characters
+2026-02-17 10:31:29 - Request received
+POST data: Array
+(
+    [district_id] => 92
+)
+
+District ID after intval: 92
+Query executed. Rows found: 23
+Options generated: 847 characters
+2026-02-17 11:15:57 - Request received
+POST data: Array
+(
+    [district_id] => 
+)
+
+District ID after intval: 0
+Query executed. Rows found: 0
+No blocks found for district ID: 0
+2026-02-17 11:22:01 - Request received
+POST data: Array
+(
+    [district_id] => 
+)
+
+District ID after intval: 0
+Query executed. Rows found: 0
+No blocks found for district ID: 0
+2026-02-17 11:30:24 - Request received
+POST data: Array
+(
+    [district_id] => 92
+)
+
+District ID after intval: 92
+Query executed. Rows found: 23
+Options generated: 847 characters
+2026-02-17 11:33:13 - Request received
+POST data: Array
+(
+    [district_id] => 92
+)
+
+District ID after intval: 92
+Query executed. Rows found: 23
+Options generated: 847 characters

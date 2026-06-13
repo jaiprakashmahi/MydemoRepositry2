@@ -1,0 +1,6 @@
+<?php
+include 'conn.php';
+$id = $_GET['id'];
+$conn->query("DELETE FROM students WHERE id = $id");
+header("Location: student.php"); // or wherever your list is
+?>
